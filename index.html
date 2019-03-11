@@ -7,19 +7,53 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
   <link href="https://fonts.googleapis.com/css?family=Amaranth|Chewy" rel="stylesheet">
   <link rel="stylesheet" href="./src/index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 
 <body>
   <main>
-    <section class="section home">
-      <h1 class="home-title">pf das ruas</h1>
-      <h2>temperando a vida com <span>amor</span> e <span>solidariedade</span></h2>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <span class="brand blue">pf das ruas</span>
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbar" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" data-scroll href="#">
+            Home
+          </a>
+          <a class="navbar-item" data-scroll href="#about">
+            Sobre
+          </a>
+          <a class="navbar-item" data-scroll href="#testmonies">
+            Depoimentos
+          </a>
+          <a class="navbar-item" data-scroll href="#help">
+            Quero ajudar
+          </a>
+        </div>
+    </nav>
+    <section class="hero section is-fullheight home">
+      <div>
+        <h1 class="home-title white">pf das ruas</h1>
+        <h2 class="darkgrey">temperando a vida com <span class="pink">amor</span> e <span
+            class="purple">solidariedade</span></h2>
+      </div>
     </section>
-    <section class="section">
+    <section id="about" class="hero section is-fullheight">
       <p>
         Somos um grupo de amigos, companheiros e <br />
-        cozinheiros trabalsasashando padsdsdra servir um <br />
+        cozinheiros trabalhando para servir um <br />
         almoço nutritive, saboroso e quentinho para <br />
         os moradores de rua de POA. Veja aqui um <br />
         pouco mais de nossa ação!
@@ -30,7 +64,7 @@
         <span>marmitas todos os sábados</span>
       </p>
     </section>
-    <section class="section has-background-info has-text-white">
+    <section id="testmonies" class="hero section is-fullheight has-background-info has-text-white">
       <div class="has-text-centered">
         <h1>Amamos o que fazemos<h1>
             <p>Esses são alguns de nossos voluntários</p>
@@ -50,7 +84,7 @@
                 </div>
               </div>
     </section>
-    <section class="section has-background-warning">
+    <section id="help" class="hero section is-fullheight has-background-warning">
       <div class="has-text-centered">
         <h1>Quero ajudar</h1>
       </div>
@@ -58,7 +92,7 @@
         <div class="column">
           <div class="box has-text-centered">
             <p>Precisamos de Doações!</p>
-            <p>"O nosso pouco é muito para quem não tem nada"</p>
+            <q>"O nosso pouco é muito para quem não tem nada"</q>
             <p>
               Temos como itens de maior necessidade:
               macarrão, açucar, óleo, enlatados, proteínas e marmitex nº8.
@@ -76,7 +110,7 @@
         <div class="column">
           <map>
           </map>
-          <p>Venha nos conhecer aos Sábados, das 11 às 13:30h</p>
+          <p>Venha nos conhecer aos sábados, das 11h às 13:30</p>
         </div>
       </div>
     </section>
@@ -96,6 +130,7 @@
       </div>
     </div>
   </footer>
+  <script src="src/index.js"></script>
 </body>
 
 </html>
