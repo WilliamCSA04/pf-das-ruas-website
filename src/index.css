@@ -9,7 +9,7 @@
 .white  { color: #f5fffa;}
 
 .home {
-    background: url(https://media-public.canva.com/MAB5cEhZV9o/2/screen.png) no-repeat;
+    background: url('./images/home-bg.png') no-repeat;
     background-size: cover;
     background-color: #5ce1e6;
 }
