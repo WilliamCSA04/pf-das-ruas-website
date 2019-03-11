@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/WilliamCSA04/pf-das-ruas-website#readme",
   "dependencies": {
-    "bulma": "^0.7.4"
+    "bulma": "^0.7.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
   }
 }
