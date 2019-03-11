@@ -44,3 +44,9 @@ p, h1, h2, h3, h4, h5, h6 {
  #help {
     background-color: #ffbd59;
  }
+
+ .box {
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 1px 6px 18px 5px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+ }
