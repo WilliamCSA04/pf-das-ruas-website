@@ -23,7 +23,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 #home {
-    background: url('./images/home-bg.png') no-repeat;
+    background: url('./images/home-bg-min.png') no-repeat;
     background-size: cover;
     background-color: #5ce1e6;
 }

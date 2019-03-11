@@ -23,6 +23,7 @@
     "express": "^4.16.4"
   },
   "devDependencies": {
+    "nodemon": "^1.18.10",
     "reload": "^2.4.0"
   }
 }
