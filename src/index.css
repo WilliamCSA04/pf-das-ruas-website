@@ -8,7 +8,21 @@
 .orange  { color: #ffbd59;}
 .white  { color: #f5fffa;}
 
-.home {
+p, h1, h2, h3, h4, h5, h6 {
+   font-family: 'Amaranth', sans-serif;
+}
+
+.navbar-menu {
+   font-family: 'Chewy', sans-serif;
+   text-transform: uppercase;
+}
+
+.brand {
+   font-family: 'Chewy', sans-serif;
+    font-size: 20pt;
+}
+
+#home {
     background: url('./images/home-bg.png') no-repeat;
     background-size: cover;
     background-color: #5ce1e6;
@@ -19,16 +33,14 @@
     font-size: 100pt;
  }
 
- .navbar-menu {
-    font-family: 'Chewy', sans-serif;
-    text-transform: uppercase;
+ #about {
+    background-color: #f5fffa;
  }
 
- .brand {
-    font-family: 'Chewy', sans-serif;
-     font-size: 20pt;
+ #testmonies {
+   background-color: #5ce1e6;
  }
 
- p, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Amaranth', sans-serif;
+ #help {
+    background-color: #ffbd59;
  }

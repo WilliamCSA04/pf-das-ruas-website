@@ -1,8 +1,0 @@
-{
-    "watch": [
-        "server.js",
-        "src/",
-        "index.html"
-    ],
-    "ext": "js, css, html"
-}
