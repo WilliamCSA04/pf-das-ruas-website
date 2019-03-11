@@ -19,8 +19,7 @@ app.get('/', (request, response) => {
 const server = http.createServer(app)
 
 server.listen(app.get('port'), () => {
-    console.log('Node app is running on port', app.get('port'));
-    console.log('See at http://localhost:5000')
+    console.log(`Node app is running on port ${app.get('port')}`, '\nSee at http://localhost:5000');
 });
 
 reload(app)
