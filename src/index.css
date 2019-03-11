@@ -8,8 +8,9 @@
 .orange  { color: #ffbd59;}
 .white  { color: #f5fffa;}
 
-p, h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4, h5, h6, q {
    font-family: 'Amaranth', sans-serif;
+   color: #a6a6a6;
 }
 
 .navbar-menu {
@@ -46,7 +47,44 @@ p, h1, h2, h3, h4, h5, h6 {
  }
 
  .box {
-    height: 400px;
+    height: 350px;
     border-radius: 30px;
-    box-shadow: 1px 6px 18px 5px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+    box-shadow: 1px 6px 18px 5px rgba(10,10,10,.1);
+ }
+
+ .avatar {
+   position: absolute;
+   top: -25%;
+   width: 125px;
+   height: 125px;
+ }
+
+ .section-title {
+   font-weight: bold;
+   font-size: 50px;
+ }
+
+ .section-subtitle {
+    font-size: 25px;
+ }
+
+
+ #testmonies .box {
+    margin: 0 .5em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+ }
+
+ .testmonies-texts {
+   padding: 3em 1.5em 1.5em 1.5em;
+ }
+
+ .testmonies-texts q {
+    font-style: italic;
+ }
+
+ .testmonies-texts h2 {
+   font-size: 22px;
+   font-weight: bold;
  }
